@@ -7,7 +7,7 @@ const routes = [
   // 登录
   {
     path: "/",
-    redirect: "consoleindex",
+    redirect: "login",
     hidden: true,
     
   },

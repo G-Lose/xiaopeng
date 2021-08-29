@@ -8,8 +8,10 @@
 }
 
 // 修改一级菜单的样式
-// .el-submenu{
-//     &.is-active.is-opened .el-submenu__title{
-//         background-color: #167 !important;
-//     }
-// } 
+.el-submenu{
+    &.is-active.is-active .el-submenu__title{
+        background-color: #167 !important;
+    }
+} 
+
+// el-submenu is-active is-opened el-submenu__title
